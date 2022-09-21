@@ -15,6 +15,7 @@
 .container{
     max-width: 1400px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .row{
@@ -23,11 +24,16 @@
 }
 
 main{
-    padding-top: 70px;
+    padding: 70px 0;
 }
 
 .product-row{
     margin-top: 30px;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
 }
 
 /*-------------------------
@@ -36,7 +42,17 @@ main{
 
 body{
     font-family: 'Roboto', sans-serif;
-    padding: 0 15px;
+    
+}
+
+footer h6{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+footer h5{
+    font-size: 15px;
+    padding-bottom: 8px;
 }
 
 /*-------------------------
@@ -48,6 +64,7 @@ body{
     left: 0;
     right: 0;
     top: 0;
+    z-index: 100;
     background-color: #FF6900;
     color: white;
     padding: 10px;
@@ -78,15 +95,15 @@ body{
     text-align: center;
 }
 
-.nav-menu ul{
+.nav-menu ul, .link-utili ul{
     list-style: none;
 }
 
-.nav-menu ul li{
-    margin: 0 5px;
-  }
+.nav-menu ul li, .link-utili ul li{
+    margin-right: 10px;
+}
  
-.nav-menu ul li a{
+.nav-menu ul li a, .link-utili ul li a{
     text-decoration: none;
     color: inherit;
     font-size: 14px;
@@ -183,5 +200,16 @@ body{
     font-weight: 300;
 }
 
+/*-------------------------
+ FOOTER
+ ------------------------*/
 
+footer{
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    color: white;
+}
 
+.footerozzo{
+    justify-content: space-between;
+}
