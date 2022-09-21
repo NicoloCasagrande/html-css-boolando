@@ -22,6 +22,23 @@
     align-items: center;
 }
 
+main{
+    padding-top: 70px;
+}
+
+.product-row{
+    margin-top: 30px;
+}
+
+/*-------------------------
+ TIPOGRAPHY
+ ------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 15px;
+}
+
 /*-------------------------
  HEADER
  ------------------------*/
@@ -72,10 +89,99 @@
 .nav-menu ul li a{
     text-decoration: none;
     color: inherit;
-    font-size: 15px;
-  }
+    font-size: 14px;
+    font-weight: bold;
+}
 
+/*-------------------------
+ MAIN
+ ------------------------*/
 
+.col{
+    max-width: 30%;
+    position: relative;
+}
+
+.product-row{
+    justify-content: space-between;
+}
+
+.col img{
+    width: 100%;
+}
+
+.immagine-principale{
+    display: block;
+}
+
+.immagine-secondaria{
+    display: none;
+}
+
+.sconto{
+    position:absolute;
+    bottom: 90px;
+    background-color: red;
+    padding: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sostenibilita{
+    position:absolute;
+    bottom: 90px;
+    left: 40px;
+    background-color: green;
+    padding: 3px 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 3px 5px;
+    background-color: white;
+    color: black;
+}
+
+.col:hover .heart {
+    color: red;
+}
+
+.col:hover .immagine-principale{
+    display: none;
+    transition: 0.5s;
+}
+
+.col:hover .immagine-secondaria{
+    display: block;
+}
+
+.marca{
+    font-size: 14px;
+    color: grey;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.prezzo-vecchio{
+    text-decoration: line-through;
+    color: black;
+    font-weight: 300;
+}
 
 
 
