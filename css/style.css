@@ -1,0 +1,81 @@
+/*-------------------------
+ RESET 
+ ------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------
+ COMMON
+ ------------------------*/
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------
+ HEADER
+ ------------------------*/
+
+.head-scroll-bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #FF6900;
+    color: white;
+    padding: 10px;
+}
+
+.header-element{
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 30px;
+}
+
+.nav-menu, .personal-info{
+    width: 20%;
+}
+
+.personal-info{
+    text-align: right;
+}
+
+.personal-info i{
+    margin: 0 3px;
+}
+
+.logo{
+    width: 60%;
+    text-align: center;
+}
+
+.nav-menu ul{
+    list-style: none;
+}
+
+.nav-menu ul li{
+    margin: 0 5px;
+  }
+ 
+.nav-menu ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+  }
+
+
+
+
+
